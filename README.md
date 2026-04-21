@@ -11,16 +11,16 @@ main.py: Contains the core library class logic.
 
 ## How to run?
 
-1. **Prerequisites:** 
-``` python3 --version```
-
-2. **clone this repo:**
+1. **clone this repo:**
 ``` git clone https://github.com/Rohinibawake/Library_management```
 
-3. **Navigate to the project folder:**
+2. **Navigate to the project folder:**
 ``` cd library_management/ ```
 
-4. **Run the Application:**
-``` python3 main.py ```
+3. **Build docker image :**
+``` docker build -t librarymanagement .```
+
+4. **Run docker container**
+``` docker run -it --name library librarymanagement ```
 
 
